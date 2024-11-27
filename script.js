@@ -26,7 +26,7 @@ document.getElementById("conversionForm").addEventListener("submit", async (e) =
             `El resultado es ${resultado.toFixed(2)} ${monedaDestino}`;
     } catch (error) {
         document.getElementById("resultado").innerText =
-            "Ocurrió un error al realizar la conversión. Inténtalo más tarde.";
+             `Ocurrió un error al realizar la conversión. Inténtalo más tarde. ${tasa}`;
         console.error(error);
     }
 });
