@@ -10,24 +10,88 @@
     <div class="container">
         <h1>Conversor de Monedas</h1>
         <form id="conversionForm">
-            <div class="field">
-                <label for="monedaOrigen">Moneda Origen</label>
-                <select id="monedaOrigen" name="monedaOrigen" required>
-                    <option value="" disabled selected>Seleccionar</option>
-                    <option value="USD">Dólar (USD)</option>
-                    <option value="EUR">Euro (EUR)</option>
-                    <option value="ARS">Peso Argentino (ARS)</option>
-                    <!-- Agrega más opciones según sea necesario -->
-                </select>
-            </div>
+        <div class="field">
+            <label for="monedaOrigen">Moneda Origen</label>
+            <select id="monedaOrigen" name="monedaOrigen" required>
+                <option value="" disabled selected>Seleccionar</option>
+                <option value="USD">Dólar (USD)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="GBP">Libra Esterlina (GBP)</option>
+                <option value="INR">Rupia India (INR)</option>
+                <option value="JPY">Yen Japonés (JPY)</option>
+                <option value="CAD">Dólar Canadiense (CAD)</option>
+                <option value="AUD">Dólar Australiano (AUD)</option>
+                <option value="CHF">Franco Suizo (CHF)</option>
+                <option value="CNY">Yuan Chino (CNY)</option>
+                <option value="SEK">Corona Sueca (SEK)</option>
+                <option value="NZD">Dólar Neozelandés (NZD)</option>
+                <option value="MXN">Peso Mexicano (MXN)</option>
+                <option value="SGD">Dólar de Singapur (SGD)</option>
+                <option value="HKD">Dólar de Hong Kong (HKD)</option>
+                <option value="NOK">Corona Noruega (NOK)</option>
+                <option value="KRW">Won Surcoreano (KRW)</option>
+                <option value="TRY">Lira Turca (TRY)</option>
+                <option value="RUB">Rublo Ruso (RUB)</option>
+                <option value="ZAR">Rand Sudafricano (ZAR)</option>
+                <option value="BRL">Real Brasileño (BRL)</option>
+                <option value="TWD">Dólar Taiwán (TWD)</option>
+                <option value="DKK">Corona Danesa (DKK)</option>
+                <option value="PLN">Zloty Polaco (PLN)</option>
+                <option value="THB">Baht Tailandés (THB)</option>
+                <option value="MYR">Ringgit Malasio (MYR)</option>
+                <option value="HUF">Florín Húngaro (HUF)</option>
+                <option value="CZK">Corona Checa (CZK)</option>
+                <option value="ILS">Shekel Israelí (ILS)</option>
+                <option value="CLP">Peso Chileno (CLP)</option>
+                <option value="PHP">Peso Filipino (PHP)</option>
+                <option value="AED">Dírham de EAU (AED)</option>
+                <option value="COP">Peso Colombiano (COP)</option>
+                <option value="SAR">Riyal Saudí (SAR)</option>
+                <option value="IDR">Rupia Indonesia (IDR)</option>
+                <option value="QAR">Riyal Catarí (QAR)</option>
+                <option value="KWD">Dinar Kuwaití (KWD)</option>
+            </select>
+        </div>
             <div class="field">
                 <label for="monedaDestino">Moneda Destino</label>
                 <select id="monedaDestino" name="monedaDestino" required>
                     <option value="" disabled selected>Seleccionar</option>
                     <option value="USD">Dólar (USD)</option>
                     <option value="EUR">Euro (EUR)</option>
-                    <option value="ARS">Peso Argentino (ARS)</option>
-                    <!-- Agrega más opciones según sea necesario -->
+                    <option value="GBP">Libra Esterlina (GBP)</option>
+                    <option value="INR">Rupia India (INR)</option>
+                    <option value="JPY">Yen Japonés (JPY)</option>
+                    <option value="CAD">Dólar Canadiense (CAD)</option>
+                    <option value="AUD">Dólar Australiano (AUD)</option>
+                    <option value="CHF">Franco Suizo (CHF)</option>
+                    <option value="CNY">Yuan Chino (CNY)</option>
+                    <option value="SEK">Corona Sueca (SEK)</option>
+                    <option value="NZD">Dólar Neozelandés (NZD)</option>
+                    <option value="MXN">Peso Mexicano (MXN)</option>
+                    <option value="SGD">Dólar de Singapur (SGD)</option>
+                    <option value="HKD">Dólar de Hong Kong (HKD)</option>
+                    <option value="NOK">Corona Noruega (NOK)</option>
+                    <option value="KRW">Won Surcoreano (KRW)</option>
+                    <option value="TRY">Lira Turca (TRY)</option>
+                    <option value="RUB">Rublo Ruso (RUB)</option>
+                    <option value="ZAR">Rand Sudafricano (ZAR)</option>
+                    <option value="BRL">Real Brasileño (BRL)</option>
+                    <option value="TWD">Dólar Taiwán (TWD)</option>
+                    <option value="DKK">Corona Danesa (DKK)</option>
+                    <option value="PLN">Zloty Polaco (PLN)</option>
+                    <option value="THB">Baht Tailandés (THB)</option>
+                    <option value="MYR">Ringgit Malasio (MYR)</option>
+                    <option value="HUF">Florín Húngaro (HUF)</option>
+                    <option value="CZK">Corona Checa (CZK)</option>
+                    <option value="ILS">Shekel Israelí (ILS)</option>
+                    <option value="CLP">Peso Chileno (CLP)</option>
+                    <option value="PHP">Peso Filipino (PHP)</option>
+                    <option value="AED">Dírham de EAU (AED)</option>
+                    <option value="COP">Peso Colombiano (COP)</option>
+                    <option value="SAR">Riyal Saudí (SAR)</option>
+                    <option value="IDR">Rupia Indonesia (IDR)</option>
+                    <option value="QAR">Riyal Catarí (QAR)</option>
+                    <option value="KWD">Dinar Kuwaití (KWD)</option>
                 </select>
             </div>
             <div class="field">
